@@ -38,6 +38,8 @@ import {
   View
 } from 'react-native';
 
+import { SafeAreaView } from 'react-native-safe-area-context';
+
 export default function App() {
   const [messages, setMessages] = useState<string[]>([]);
   const [input, setInput] = useState('');
@@ -52,7 +54,7 @@ export default function App() {
   };
 
   return (
-    <View style={styles.root}>
+    <SafeAreaView style={styles.root}>
       {/* Fixed Header */}
       <View style={styles.header}>
         <Text style={styles.headerText}>ChatBot</Text>
@@ -87,7 +89,7 @@ export default function App() {
           <Button title="Send" onPress={sendMessage} />
         </View>
       </KeyboardAvoidingView>
-    </View>
+    </SafeAreaView>
   );
 }
 
