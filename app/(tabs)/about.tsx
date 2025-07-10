@@ -64,7 +64,7 @@ export default function App() {
       <KeyboardAvoidingView
         style={styles.flex}
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        keyboardVerticalOffset={90} // Height of the header
+        // keyboardVerticalOffset={90} // Height of the header
       >
         <ScrollView
           style={styles.chatContainer}

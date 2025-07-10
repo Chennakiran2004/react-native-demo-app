@@ -36,10 +36,18 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "17a60de5-f895-4723-bc72-3d211e4103b2"
+      }
+    },
+    "owner": "chennakiran.kumar"
   }
 }
