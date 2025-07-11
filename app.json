@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "${IOS_BUNDLE_IDENTIFIER}"
+      "bundleIdentifier": "com.tech.myapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "${ANDROID_PACKAGE}"
+      "package": "com.tech.myapp"
     },
     "web": {
       "bundler": "metro",

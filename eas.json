@@ -3,13 +3,15 @@
   "build": {
     "beta": {
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "developmentClient": true,
+        "distribution": "internal"
       },
       "env": {
         "APP_ENV": "beta",
         "EXPO_PUBLIC_API_URL": "https://beta-api.example.com",
-        "ANDROID_PACKAGE": "tech.myapp",
-        "IOS_BUNDLE_IDENTIFIER": "tech.nxtwave.myniat.beta"
+        "ANDROID_PACKAGE": "com.tech.myapp",
+        "IOS_BUNDLE_IDENTIFIER": "com.tech.myapp"
       }
     },
     "production": {
@@ -19,12 +21,17 @@
       "env": {
         "APP_ENV": "prod",
         "EXPO_PUBLIC_API_URL": "https://api.example.com",
-        "ANDROID_PACKAGE": "tech.myapp",
-        "IOS_BUNDLE_IDENTIFIER": "tech.nxtwave.myniat"
+        "ANDROID_PACKAGE": "com.tech.myapp",
+        "IOS_BUNDLE_IDENTIFIER": "com.tech.myapp"
       }
     }
   },
   "submit": {
+    "beta": {
+      "android": {
+        "serviceAccountKeyPath": "./service-account-key.json"
+      }
+    },
     "production": {
       "android": {
         "serviceAccountKeyPath": "./service-account-key.json"

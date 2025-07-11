@@ -257,8 +257,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.myapp";
-				PRODUCT_NAME = "myapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.myapp";
+				PRODUCT_NAME = "MyApp";
 				SWIFT_OBJC_BRIDGING_HEADER = "myapp/myapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -286,8 +286,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.myapp";
-				PRODUCT_NAME = "myapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.myapp";
+				PRODUCT_NAME = "MyApp";
 				SWIFT_OBJC_BRIDGING_HEADER = "myapp/myapp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
