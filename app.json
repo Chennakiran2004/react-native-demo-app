@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "MyApp",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.myapp"
+      "bundleIdentifier": "${IOS_BUNDLE_IDENTIFIER}"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.myapp"
+      "package": "${ANDROID_PACKAGE}"
     },
     "web": {
       "bundler": "metro",
@@ -43,6 +43,8 @@
       "typedRoutes": true
     },
     "extra": {
+      "APP_ENV": "${APP_ENV}",
+      "EXPO_PUBLIC_API_URL": "${EXPO_PUBLIC_API_URL}",
       "router": {},
       "eas": {
         "projectId": "17a60de5-f895-4723-bc72-3d211e4103b2"
